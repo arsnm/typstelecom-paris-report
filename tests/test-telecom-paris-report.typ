@@ -1,5 +1,5 @@
 // Same as `template/main.typ`, but using local import here for testing purposes
-#import "../src/core.typ": telecom-paris-report
+#import "../src/core.typ": telereport
 
 #let abstract = [
   This is a test of the Télécom Paris report template. It features some simple
@@ -8,7 +8,7 @@
   documentation to know about all the available options.
 ]
 
-#show: telecom-paris-report.with(
+#show: telereport.with(
   title: "Unofficial Télécom Paris Report Template",
   subtitle: "Styled according to Télécom Paris' graphic chart",
   short-title: "Report Template",
